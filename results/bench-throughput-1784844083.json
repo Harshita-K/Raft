@@ -1,0 +1,48 @@
+{
+  "throughput": [
+    {
+      "concurrency": 1,
+      "op": "read",
+      "duration_ns": 8000000000,
+      "ops": 73490,
+      "errors": 0,
+      "throughput_per_sec": 9186.25,
+      "p50_ns": 106849,
+      "p95_ns": 164548,
+      "p99_ns": 303724
+    },
+    {
+      "concurrency": 10,
+      "op": "read",
+      "duration_ns": 8000000000,
+      "ops": 95072,
+      "errors": 0,
+      "throughput_per_sec": 11884,
+      "p50_ns": 722737,
+      "p95_ns": 1977438,
+      "p99_ns": 2709886
+    },
+    {
+      "concurrency": 50,
+      "op": "read",
+      "duration_ns": 8000000000,
+      "ops": 308383,
+      "errors": 0,
+      "throughput_per_sec": 38547.875,
+      "p50_ns": 653893,
+      "p95_ns": 4599190,
+      "p99_ns": 9112366
+    },
+    {
+      "concurrency": 100,
+      "op": "read",
+      "duration_ns": 8000000000,
+      "ops": 242558,
+      "errors": 0,
+      "throughput_per_sec": 30319.75,
+      "p50_ns": 2101115,
+      "p95_ns": 8857723,
+      "p99_ns": 13293877
+    }
+  ]
+}

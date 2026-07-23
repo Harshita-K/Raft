@@ -1,0 +1,7 @@
+{
+  "snapshot_catchup": {
+    "writes": 5000,
+    "catchup_with_snapshot_ns": 148860699,
+    "catchup_without_snapshot_ns": 164849859
+  }
+}

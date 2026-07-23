@@ -1,0 +1,7 @@
+{
+  "partition": {
+    "MinorityThroughput": 0,
+    "MajorityThroughput": 768.625,
+    "HealRecoveryTime": 11188709
+  }
+}
